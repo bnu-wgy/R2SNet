@@ -1,8 +1,8 @@
- From Relation to Structure: Spatial-Semantic Guidance and Structure Refinement Network for Multimodal Remote Sensing Segmentation
+ From Relation to Structure (R2SNet)
 
 <img width="5830" height="3245" alt="main_png" src="https://github.com/user-attachments/assets/ea1fce17-6184-48ba-8f54-4a880818f299" />
 
- Semantic segmentation is a foundational task in remote sensing image (RSI) interpretation, which aims to achieve pixel-level classification of land cover. Recently, multimodal RSI semantic segmentation has attracted significant attention for its ability to alleviate the information bottleneck of unimodal methods. However, existing multimodal methods often emphasize feature alignment and complementarity but tend to overlook the inherent coexistence and mutually exclusive relationships among land covers, which often leads to fragmented results. Furthermore, achieving fine-grained boundary segmentation remains a crucial challenge. To address these challenges, we propose R2SNet, a spatial-semantic guidance and structure refinement network. The core innovation of R2SNet lies in a progressive optimization strategy that guides from semantic relations to spatial structure refinement via three collaborative modules. Specifically, the asymmetric dual-branch (ADB) encoder performs modal-specific extraction of semantic and geometric features to mitigate redundancy and modal interference. Subsequently, the spatial-semantic guided cross-modal fusion (SGCF) module explicitly embeds spatial-semantic priors into the fusion process to suppress unreasonable relationships. Finally, the progressive structure refinement (PSR) decoder aggregates multi-scale contexts and employs an eight-directional selective scanning mechanism to enhance structural integrity and refine boundaries. Extensive experiments on the ISPRS Vaihingen, ISPRS Potsdam, DDHR, and WHU-OPT-SAR datasets demonstrate that R2SNet outperforms existing state-of-the-art methods, particularly regarding semantic consistency and boundary precision.
+
 
  Notice: We have hidden the core components in this version of the code, but the code still works.
 
