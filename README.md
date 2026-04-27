@@ -1,6 +1,6 @@
 ## From Relation to Structure (R2SNet)
 
-<img width="5000" height="3000" alt="main_png" src="https://github.com/user-attachments/assets/ea1fce17-6184-48ba-8f54-4a880818f299" />
+<img width="4000" height="2600" alt="main_png" src="https://github.com/user-attachments/assets/ea1fce17-6184-48ba-8f54-4a880818f299" />
 
 ## Dependencies and Installation
 To run R2SNet, please install the following packages of the requirements.txt. We used Python 3.9 in our experiments.
